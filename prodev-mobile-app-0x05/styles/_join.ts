@@ -190,6 +190,77 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 600,
     color: '#FFA800'
+  },
+  searchGroup: {
+    marginTop: 20,
+    marginBottom: 20
+  },
+  searchFormGroup: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 15
+  },
+  searchControlGroup: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#F5F5F5',
+    borderRadius: 10,
+    paddingHorizontal: 15,
+    height: 50
+  },
+  searchFormText: {
+    fontSize: 16,
+    color: '#7B7B7B',
+    marginRight: 10
+  },
+  searchControl: {
+    flex: 1,
+    height: '100%',
+    fontSize: 16,
+    color: '#0D0D0D'
+  },
+  searchButton: {
+    marginLeft: 10,
+    backgroundColor: '#34967C',
+    height: 50,
+    width: 50,
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  filterGroup: {
+    marginBottom: 20
+  },
+  filterContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 10,
+    marginTop: 10
+  },
+  listingContainer: {
+    flex: 1,
+    marginTop: 10
+  },
+  paginationContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 20,
+    marginBottom: 30
+  },
+  showMoreButton: {
+    backgroundColor: '#F5F5F5',
+    paddingVertical: 12,
+    paddingHorizontal: 25,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#E9E9E9'
+  },
+  showMoreButtonText: {
+    color: '#34967C',
+    fontSize: 16,
+    fontWeight: '600',
+    textAlign: 'center'
   }
 });
 
